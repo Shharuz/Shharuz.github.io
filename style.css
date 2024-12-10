@@ -1,0 +1,35 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body .hide {
+  opacity: 0;
+}
+body .main {
+  display: flex;
+  position: relative;
+}
+body .main img {
+  width: 500px;
+  height: 500px;
+}
+body .main .zoom-preview {
+  height: 150px;
+  width: 150px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  position: absolute;
+  transition: opacity 0.3s;
+}
+
+/*# sourceMappingURL=style.css.map */
